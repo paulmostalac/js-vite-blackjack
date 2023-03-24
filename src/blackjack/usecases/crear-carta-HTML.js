@@ -10,7 +10,7 @@ export const crearCartaHTML = (carta, turno) => {
 
     const divCartasJugadores = document.querySelectorAll('.divCartas')
     const imgCarta = document.createElement('img');
-    imgCarta.src = `Assets/cartas/${carta}.png`;
+    imgCarta.src = `assets/cartas/${carta}.png`;
     imgCarta.classList.add('carta') ;
     divCartasJugadores[turno].append(imgCarta);
     
